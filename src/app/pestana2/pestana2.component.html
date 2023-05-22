@@ -1,0 +1,16 @@
+<div class="container">
+  <mat-grid-list class="movil" cols="3" rowHeight="600px" class="mobile-cols-1">
+    <mat-grid-tile *ngFor="let monumento of monumentos">
+      <mat-card class="card">
+        <mat-card-title>{{ monumento.nombre }}</mat-card-title>
+        <img class="img" srcset="assets/imagenes/{{monumento.imagen}}" />
+        <mat-card-content>
+          <p>{{ monumento.descripcion }}</p>
+        </mat-card-content>
+        <mat-card-actions class="derecha">
+          <a mat-button class="color" [href]="monumento.enlace" target="_blank">+</a>
+        </mat-card-actions>
+      </mat-card>
+    </mat-grid-tile>
+  </mat-grid-list>
+</div>

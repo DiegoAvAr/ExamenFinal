@@ -1,0 +1,17 @@
+<mat-card class="center-card">
+  <mat-card-content>
+    <h1>Cambio euro a libras</h1>
+    <br>
+    <form [formGroup]="currencyForm">
+      <input class="ejemplo" matInput type="number" formControlName="euros" (input)="convertToPounds()">
+      <br>
+      <input class="ejemplo" matInput type="number" formControlName="pounds" readonly>
+      
+      <h1>Cambio libra a euro</h1>
+      
+      <input class="ejemplo" matInput type="number" formControlName="poundsToEuros" (input)="convertToEurosFromPounds()">
+      <br>
+      <input class="ejemplo" matInput type="number" formControlName="eurosToPounds" readonly>
+    </form>
+  </mat-card-content>
+</mat-card>

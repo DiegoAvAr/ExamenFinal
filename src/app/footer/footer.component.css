@@ -1,0 +1,24 @@
+
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2B3856;
+    color: #009688;
+    padding: 20px;
+    height: 100px; 
+  }
+  .footer a{
+    color: #009688;
+  }
+
+  .boton{
+    background-color: #F1C40F !important;
+    color: #E74C3C
+    !important;
+  
+  }
+.boton:hover{
+  color: red;
+  background-color: red;
+}

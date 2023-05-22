@@ -1,0 +1,23 @@
+.custom-tab-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+    flex-grow: 1;
+
+
+   
+  }
+  
+  .custom-tab {
+    flex-grow: 1;
+    text-align: center;
+  }
+  
+  .primario {
+    background-color: #2B3856;
+    color: white;
+  }
+  
+  .primario a {
+    color: white;
+  }
